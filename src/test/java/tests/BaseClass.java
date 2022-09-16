@@ -22,7 +22,6 @@ public class BaseClass {
 
 	@BeforeTest
 	public  void setup() {
-		System.out.println("I'm Setup");
 		DesiredCapabilities caps = new DesiredCapabilities();
 
 		caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
